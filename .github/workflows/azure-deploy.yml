@@ -19,7 +19,7 @@ jobs:
       - name: Install and build
         run: |
           npm ci
-          npm run build
+          npx vite build
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
