@@ -21,6 +21,11 @@ jobs:
           npm ci
           npx vite build
 
+      - name: Prepare server for Azure
+        run: |
+          cp server.cjs dist/server.js
+          echo '{"name":"my-profile","version":"1.0.0","scripts":{"start":"node server.js"}}' > dist/package.json
+
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
