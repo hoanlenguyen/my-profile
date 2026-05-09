@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { Mail, ArrowUpRight, ChevronDown, Download } from 'lucide-vue-next'
 import { profile } from '@/data/profile'
+
+const baseUrl = import.meta.env.BASE_URL
 </script>
 
 <template>
@@ -52,7 +54,7 @@ import { profile } from '@/data/profile'
           <ArrowUpRight class="w-4 h-4" />
         </a>
         <a
-          :href="`${import.meta.env.BASE_URL}resume.pdf`"
+          :href="`${baseUrl}resume.pdf`"
           download="LeNguyenHanHoan_CV.pdf"
           class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-gray-300 dark:border-gray-700 hover:border-indigo-400 dark:hover:border-indigo-600 text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium text-sm transition-colors"
         >
