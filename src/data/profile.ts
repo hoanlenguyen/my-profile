@@ -1,6 +1,7 @@
 export interface Experience {
   id: string
   company: string
+  companyUrl?: string
   location: string
   role: string
   startDate: string
@@ -55,6 +56,7 @@ export const profile: Profile = {
     {
       id: 'tes-schrole',
       company: 'Tes (UK) / Schrole Group (Australia)',
+      companyUrl: 'https://www.tes.com',
       location: 'Remote',
       role: 'Full Stack Developer',
       startDate: '2023-05',
@@ -80,6 +82,7 @@ export const profile: Profile = {
     {
       id: 'saigon-tech',
       company: 'Saigon Technology',
+      companyUrl: 'https://saigontechnology.com',
       location: 'Ho Chi Minh City',
       role: 'Full Stack Developer',
       startDate: '2022-02',
@@ -97,6 +100,7 @@ export const profile: Profile = {
     {
       id: 'yoong',
       company: 'Yoong Solutions',
+      companyUrl: 'https://www.yoong.vn',
       location: 'Ho Chi Minh City',
       role: 'Software Developer',
       startDate: '2018-08',
