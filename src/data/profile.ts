@@ -88,7 +88,8 @@ export const profile: Profile = {
       startDate: '2022-02',
       endDate: '2023-04',
       remote: false,
-      domain: 'Internal enterprise tooling for a Singapore-based client',
+      products: 'Internal enterprise tooling for a Singapore-based client',
+      domain: 'Customer data management',
       technologies: ['.NET 6', 'MySQL', 'Dapper', 'EPPlus', 'Azure Blobs', 'SignalR', 'Vue.js'],
       achievements: [
         'Designed and implemented a bulk CSV import pipeline capable of processing large-scale employee and customer datasets',
@@ -106,7 +107,8 @@ export const profile: Profile = {
       startDate: '2018-08',
       endDate: '2022-01',
       remote: false,
-      domain: 'Human resource management, customer data management — Fanfan (e-commerce)',
+      products: 'Fanfan (fanfan.vn) — outdoor and camping retail e-commerce platform',
+      domain: 'Retail e-commerce',
       technologies: [
         '.NET Core', 'Vue.js', 'SQL Server', 'Azure Functions',
         'Azure Queue Storage', 'Azure Web Apps', 'Redis Cache', 'EPPlus', 'JWT',
