@@ -23,6 +23,14 @@ export interface Education {
   note: string
 }
 
+export interface Project {
+  id: string
+  name: string
+  description: string
+  url: string
+  technologies: string[]
+}
+
 export interface SkillGroup {
   label: string
   skills: string[]
@@ -40,6 +48,7 @@ export interface Profile {
   education: Education[]
   skillGroups: SkillGroup[]
   languages: { name: string; level: string }[]
+  projects: Project[]
 }
 
 export const profile: Profile = {
@@ -158,5 +167,16 @@ export const profile: Profile = {
   languages: [
     { name: 'Vietnamese', level: 'Native' },
     { name: 'English', level: 'IELTS 6.5 (Jan 2025)' },
+  ],
+
+  projects: [
+    {
+      id: 'codesentinel',
+      name: 'CodeSentinel',
+      description:
+        'AI-powered code review tool that automatically analyses pull requests, detects bugs, security issues, and code smells, and delivers actionable feedback directly in GitHub.',
+      url: 'https://codesentinel-ai-review.azurewebsites.net',
+      technologies: ['Vue 3', 'TypeScript', '.NET 8', 'Claude API', 'Azure Web Apps', 'GitHub API'],
+    },
   ],
 }
