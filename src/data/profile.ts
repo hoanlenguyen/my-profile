@@ -176,7 +176,7 @@ export const profile: Profile = {
       description:
         'AI-powered code review tool that automatically analyses pull requests, detects bugs, security issues, and code smells, and delivers actionable feedback directly in GitHub.',
       url: 'https://codesentinel-ai-review.azurewebsites.net',
-      technologies: ['Vue 3', 'TypeScript', '.NET 8', 'Claude API', 'Azure Web Apps', 'GitHub API'],
+      technologies: ['Python', 'Flask', 'AG2', 'OpenAI', 'Multi-Agent AI', 'GitHub Actions', 'Azure Web Apps'],
     },
   ],
 }
