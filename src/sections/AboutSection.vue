@@ -68,7 +68,7 @@ import { profile } from '@/data/profile'
               <span class="text-xs font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">Core Stack</span>
             </div>
             <div class="font-mono text-sm text-gray-700 dark:text-gray-300">
-              .NET 8 &nbsp;·&nbsp; Vue 3 &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; Azure
+              .NET &nbsp;·&nbsp; Vue 3 &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; Azure
             </div>
           </div>
         </div>

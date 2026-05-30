@@ -69,7 +69,7 @@ export const profile: Profile = {
       location: 'Remote',
       role: 'Full Stack Developer',
       startDate: '2023-05',
-      endDate: null,
+      endDate: '2026-03',
       remote: true,
       products: 'Schrole Cover & Schrole Connect',
       domain: 'HR management software for the international education sector',

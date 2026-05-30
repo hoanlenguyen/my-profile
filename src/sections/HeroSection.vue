@@ -64,7 +64,7 @@ const baseUrl = import.meta.env.BASE_URL
       </div>
 
       <div class="mt-8 flex flex-wrap justify-center gap-3 text-xs font-mono text-gray-400 dark:text-gray-600">
-        <span>C# · TypeScript · Vue 3 · .NET 8 · Azure · SQL Server</span>
+        <span>C# · TypeScript · Vue 3 · .NET · Azure · SQL Server</span>
       </div>
     </div>
 
