@@ -2,6 +2,7 @@ export interface Experience {
   id: string
   company: string
   companyUrl?: string
+  projectUrl?: string
   location: string
   role: string
   startDate: string
@@ -66,6 +67,7 @@ export const profile: Profile = {
       id: 'uoulu-m3s',
       company: 'University of Oulu — M3S Research Unit',
       companyUrl: 'https://www.oulu.fi/en/research/research-units/m3s',
+      projectUrl: 'https://hiilivahti.fi',
       location: 'Oulu, Finland',
       role: 'University Trainee',
       startDate: '2026-08',

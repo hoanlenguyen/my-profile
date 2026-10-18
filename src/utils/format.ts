@@ -17,7 +17,7 @@ export function formatDuration(startDate: string, endDate: string | null): strin
   const start = parseDate(startDate)
   const end = endDate ? parseDate(endDate) : new Date()
   const months =
-    (end.getFullYear() - start.getFullYear()) * 12 + (end.getMonth() - start.getMonth())
+    (end.getFullYear() - start.getFullYear()) * 12 + (end.getMonth() - start.getMonth()) + 1
   const years = Math.floor(months / 12)
   const rem = months % 12
   if (years === 0) return `${rem}mo`

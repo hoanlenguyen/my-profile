@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Building2, MapPin, Calendar, ArrowUpRight } from 'lucide-vue-next'
+import { Building2, MapPin, Calendar, ArrowUpRight, ExternalLink } from 'lucide-vue-next'
 import SectionHeader from '@/components/SectionHeader.vue'
 import TimelineItem from '@/components/TimelineItem.vue'
 import Badge from '@/components/Badge.vue'
@@ -61,9 +61,21 @@ import { formatDateRange, formatDuration } from '@/utils/format'
               </div>
             </div>
 
-            <p v-if="exp.products" class="text-sm font-medium text-gray-700 dark:text-gray-300 mb-0.5">
-              {{ exp.products }}
-            </p>
+            <div v-if="exp.products" class="flex items-center gap-2 mb-0.5">
+              <a
+                v-if="exp.projectUrl"
+                :href="exp.projectUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-1 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
+              >
+                <ExternalLink class="w-3.5 h-3.5" />
+                {{ exp.products }}
+              </a>
+              <p v-else class="text-sm font-medium text-gray-700 dark:text-gray-300">
+                {{ exp.products }}
+              </p>
+            </div>
             <p class="text-xs text-gray-500 dark:text-gray-400 italic mb-4">
               {{ exp.domain }}
             </p>
