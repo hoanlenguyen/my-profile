@@ -55,11 +55,11 @@ export const profile: Profile = {
   name: 'Le Nguyen Han Hoan',
   title: 'Full Stack Developer',
   email: 'lenguyenhanhoan@gmail.com',
-  phone: '+84 985 358 948',
-  location: 'Ho Chi Minh City, Vietnam',
+  phone: '+358 413674307',
+  location: 'Oulu, Finland',
   linkedin: 'linkedin.com/in/lenguyenhanhoan',
   summary:
-    'Full Stack Developer with over six years of experience in web application development, specializing in the .NET ecosystem and Vue.js. Demonstrated ability to deliver end-to-end features across enterprise-grade SaaS products in international HR management and e-commerce domains. Committed to continuous professional development, currently pursuing a Master\'s degree in Software Engineering at the University of Oulu, Finland. Proficient in Agile methodologies, cloud infrastructure on Microsoft Azure, and AI-assisted development workflows.',
+    "Full Stack Developer with over six years of experience in web application development, specializing in the .NET ecosystem and Vue.js. Demonstrated ability to deliver end-to-end features across enterprise-grade SaaS products in international HR management and e-commerce domains. Committed to continuous professional development, currently pursuing a Master's degree in Software Engineering at the University of Oulu, Finland. Proficient in Agile methodologies, cloud infrastructure on Microsoft Azure, and AI-assisted development workflows.",
 
   experience: [
     {
@@ -74,9 +74,17 @@ export const profile: Profile = {
       products: 'Schrole Cover & Schrole Connect',
       domain: 'HR management software for the international education sector',
       technologies: [
-        '.NET 8', 'ASP.NET MVC', 'Vue 3', 'SQL Server 2019',
-        'Azure Blobs', 'SignalR', 'Bootstrap 5', 'xUnit', 'Playwright',
-        'Jira', 'Bitbucket',
+        '.NET 8',
+        'ASP.NET MVC',
+        'Vue 3',
+        'SQL Server 2019',
+        'Azure Blobs',
+        'SignalR',
+        'Bootstrap 5',
+        'xUnit',
+        'Playwright',
+        'Jira',
+        'Bitbucket',
       ],
       achievements: [
         'Developed full-stack features for profile management, vacancy management, and application management modules serving international teacher candidates and school administrators.',
@@ -99,11 +107,19 @@ export const profile: Profile = {
       remote: false,
       products: 'Internal enterprise tooling for a Singapore-based client',
       domain: 'Customer data management',
-      technologies: ['.NET 6', 'MySQL', 'Dapper', 'EPPlus', 'Azure Blobs', 'SignalR', 'Vue.js'],
+      technologies: [
+        '.NET 6',
+        'MySQL',
+        'Dapper',
+        'EPPlus',
+        'Azure Blobs',
+        'SignalR',
+        'Vue.js',
+      ],
       achievements: [
         'Designed and implemented a bulk CSV import pipeline capable of processing large-scale employee and customer datasets',
         'Built a time-off management system with employee record creation and period summarization, adopted by approximately 200 internal users.',
-        'Deployed application infrastructure to Azure App Service, establishing the team\'s first cloud-hosted production environment.',
+        "Deployed application infrastructure to Azure App Service, establishing the team's first cloud-hosted production environment.",
         'Authored SQL Server stored procedures and Dapper-based data access layers, ensuring consistent query performance under concurrent load.',
       ],
     },
@@ -116,11 +132,19 @@ export const profile: Profile = {
       startDate: '2018-08',
       endDate: '2022-01',
       remote: false,
-      products: 'Fanfan (fanfan.vn) — outdoor and camping retail e-commerce platform',
+      products:
+        'Fanfan (fanfan.vn) — outdoor and camping retail e-commerce platform',
       domain: 'Retail e-commerce',
       technologies: [
-        '.NET Core', 'Vue.js', 'SQL Server', 'Azure Functions',
-        'Azure Queue Storage', 'Azure Web Apps', 'Redis Cache', 'EPPlus', 'JWT',
+        '.NET Core',
+        'Vue.js',
+        'SQL Server',
+        'Azure Functions',
+        'Azure Queue Storage',
+        'Azure Web Apps',
+        'Redis Cache',
+        'EPPlus',
+        'JWT',
       ],
       achievements: [
         'Delivered CMS features for product management and order management modules serving a retail client.',
@@ -135,7 +159,8 @@ export const profile: Profile = {
   education: [
     {
       id: 'oulu',
-      degree: 'Master of Science in Software Engineering and Information Systems',
+      degree:
+        'Master of Science in Software Engineering and Information Systems',
       institution: 'University of Oulu',
       location: 'Finland',
       startDate: '2025-09',
@@ -154,14 +179,59 @@ export const profile: Profile = {
   ],
 
   skillGroups: [
-    { label: 'Languages', skills: ['C#', 'JavaScript', 'TypeScript', 'SQL', 'Python'] },
-    { label: 'Frameworks', skills: ['.NET 8', 'ASP.NET MVC', '.NET Core', 'Vue.js 3', 'React.js'] },
-    { label: 'APIs & Auth', skills: ['RESTful API', 'JWT', 'Middleware Pipelines', 'SignalR'] },
-    { label: 'Databases', skills: ['SQL Server 2019', 'MySQL', 'Redis Cache', 'Cosmos DB', 'Dapper', 'Entity Framework'] },
-    { label: 'Cloud & Infra', skills: ['Azure App Service', 'Azure Functions', 'Azure Queue Storage', 'Azure Blobs', 'Docker'] },
-    { label: 'Testing', skills: ['xUnit', 'Playwright', 'Unit Testing', 'E2E Testing'] },
-    { label: 'AI Tools', skills: ['Claude API', 'GitHub Copilot', 'ChatGPT', 'Prompt Engineering'] },
-    { label: 'DevOps', skills: ['Git', 'GitHub', 'GitLab', 'Bitbucket', 'Jira', 'Trello', 'Agile/Scrum'] },
+    {
+      label: 'Languages',
+      skills: ['C#', 'JavaScript', 'TypeScript', 'SQL', 'Python'],
+    },
+    {
+      label: 'Frameworks',
+      skills: ['.NET 8', 'ASP.NET MVC', '.NET Core', 'Vue.js 3', 'React.js'],
+    },
+    {
+      label: 'APIs & Auth',
+      skills: ['RESTful API', 'JWT', 'Middleware Pipelines', 'SignalR'],
+    },
+    {
+      label: 'Databases',
+      skills: [
+        'SQL Server 2019',
+        'MySQL',
+        'Redis Cache',
+        'Cosmos DB',
+        'Dapper',
+        'Entity Framework',
+      ],
+    },
+    {
+      label: 'Cloud & Infra',
+      skills: [
+        'Azure App Service',
+        'Azure Functions',
+        'Azure Queue Storage',
+        'Azure Blobs',
+        'Docker',
+      ],
+    },
+    {
+      label: 'Testing',
+      skills: ['xUnit', 'Playwright', 'Unit Testing', 'E2E Testing'],
+    },
+    {
+      label: 'AI Tools',
+      skills: ['Claude API', 'GitHub Copilot', 'ChatGPT', 'Prompt Engineering'],
+    },
+    {
+      label: 'DevOps',
+      skills: [
+        'Git',
+        'GitHub',
+        'GitLab',
+        'Bitbucket',
+        'Jira',
+        'Trello',
+        'Agile/Scrum',
+      ],
+    },
   ],
 
   languages: [
@@ -176,7 +246,15 @@ export const profile: Profile = {
       description:
         'AI-powered code review tool that automatically analyses pull requests, detects bugs, security issues, and code smells, and delivers actionable feedback directly in GitHub.',
       url: 'https://codesentinel-ai-review.azurewebsites.net',
-      technologies: ['Python', 'Flask', 'AG2', 'OpenAI', 'Multi-Agent AI', 'GitHub Actions', 'Azure Web Apps'],
+      technologies: [
+        'Python',
+        'Flask',
+        'AG2',
+        'OpenAI',
+        'Multi-Agent AI',
+        'GitHub Actions',
+        'Azure Web Apps',
+      ],
     },
   ],
 }
