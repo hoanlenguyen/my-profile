@@ -73,7 +73,7 @@ export const profile: Profile = {
       startDate: '2026-08',
       endDate: '2026-09',
       remote: false,
-      products: 'Low Carbon Alerts — AI-assisted energy recommendation system',
+      products: 'hiilivahti.fi — AI-assisted energy recommendation system',
       domain: 'Sustainable energy, demand-side management',
       technologies: [
         'Nuxt/Vue 3', 'TypeScript', 'Cloudflare Workers', 'Cloudflare D1',
