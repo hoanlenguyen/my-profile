@@ -55,7 +55,7 @@ const baseUrl = import.meta.env.BASE_URL
         </a>
         <a
           :href="`${baseUrl}resume.pdf`"
-          download="LeNguyenHanHoan_CV.pdf"
+          download="HoanLe_CV.pdf"
           class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-medium text-sm transition-colors shadow-sm"
         >
           <Download class="w-4 h-4" />
