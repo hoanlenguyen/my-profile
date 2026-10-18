@@ -63,13 +63,34 @@ export const profile: Profile = {
 
   experience: [
     {
+      id: 'uoulu-m3s',
+      company: 'University of Oulu — M3S Research Unit',
+      companyUrl: 'https://www.oulu.fi/en/research/research-units/m3s',
+      location: 'Oulu, Finland',
+      role: 'University Trainee',
+      startDate: '2026-08',
+      endDate: '2026-09',
+      remote: false,
+      products: 'Low Carbon Alerts — AI-assisted energy recommendation system',
+      domain: 'Sustainable energy, demand-side management',
+      technologies: [
+        'Nuxt/Vue 3', 'TypeScript', 'Cloudflare Workers', 'Cloudflare D1',
+        'Cloudflare Vectorize', 'Drizzle ORM', 'Firebase Cloud Messaging',
+      ],
+      achievements: [
+        'Designed and built an AI-assisted notification system delivering personalized low-carbon energy recommendations to residential users, integrating with the Flip/Sähköjälki carbon intensity forecast API.',
+        'Implemented a RAG pipeline using Cloudflare Vectorize and Workers AI embeddings to ground LLM recommendations in a curated energy-saving knowledge base.',
+        'Engineered a smart-alert notification system with hourly Cron Trigger scheduling, per-user active-hour filtering, debounce logic, and browser push delivery via FCM and Service Workers, including PWA support for iOS 16.4+.',
+      ],
+    },
+    {
       id: 'tes-schrole',
       company: 'Tes (UK) / Schrole Group (Australia)',
       companyUrl: 'https://www.tes.com',
       location: 'Remote',
       role: 'Full Stack Developer',
       startDate: '2023-05',
-      endDate: '2026-03',
+      endDate: '2026-04',
       remote: true,
       products: 'Schrole Cover & Schrole Connect',
       domain: 'HR management software for the international education sector',
